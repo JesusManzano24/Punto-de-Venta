@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:context=".ActualizarProducto">
+
+    <EditText
+        android:id="@+id/etProductoID"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:hint="ID de Producto"
+        android:inputType="number"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
+
+    <EditText
+        android:id="@+id/etPrecio"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Nuevo Precio"
+        android:inputType="numberDecimal"
+        app:layout_constraintTop_toBottomOf="@id/etProductoID"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
+
+    <EditText
+        android:id="@+id/etCantidad"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Nueva Cantidad"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:inputType="number"
+        app:layout_constraintTop_toBottomOf="@id/etPrecio"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
+
+    <Button
+        android:id="@+id/btnActualizarProducto"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Actualizar Producto"
+        app:layout_constraintTop_toBottomOf="@id/etCantidad"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
+
+    <Button
+        android:id="@+id/Regresar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        app:layout_constraintTop_toBottomOf="@id/btnActualizarProducto"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
