@@ -11,12 +11,14 @@
         android:layout_height="wrap_content"
         android:text="ID del Producto:"
         android:textStyle="bold"
+        android:textColor="@color/white"
         android:textSize="16sp" />
 
     <TextView
         android:id="@+id/text_view_producto_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
         android:textSize="16sp" />
 
     <TextView
@@ -24,6 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Nombre del Producto:"
+        android:textColor="@color/white"
         android:textStyle="bold"
         android:textSize="18sp" />
 
@@ -31,6 +34,7 @@
         android:id="@+id/text_view_producto_nombre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
         android:textSize="18sp" />
 
     <TextView
@@ -39,11 +43,13 @@
         android:layout_height="wrap_content"
         android:text="Cantidad disponible del Producto:"
         android:textStyle="bold"
+        android:textColor="@color/white"
         android:textSize="16sp" />
 
     <TextView
         android:id="@+id/text_view_producto_cantidad"
         android:layout_width="wrap_content"
+        android:textColor="@color/white"
         android:layout_height="wrap_content"
         android:textSize="16sp" />
 
@@ -52,6 +58,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Precio del Producto:"
+        android:textColor="@color/white"
         android:textStyle="bold"
         android:textSize="16sp" />
 
@@ -59,6 +66,7 @@
         android:id="@+id/text_view_producto_precio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
         android:textSize="16sp" />
 
     <ImageView
@@ -68,4 +76,5 @@
         android:contentDescription="Imagen del Producto" />
 
 </LinearLayout>
+
 
